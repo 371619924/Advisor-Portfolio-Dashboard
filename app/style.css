@@ -1,0 +1,22 @@
+:root { color: #192627; background: #f3f6f5; font-family: system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 980px; margin: auto; padding: 42px 24px; }
+h1 { margin: 0; font-size: 2.2rem; letter-spacing: -.035em; }
+h2 { margin: 0 0 15px; font-size: 1.12rem; }
+header p, small { color: #526063; }
+section { background: white; border: 1px solid #d9e3df; border-radius: 10px; margin-top: 20px; padding: 22px; }
+.summary { display: flex; flex-wrap: wrap; gap: 22px 62px; }
+.summary h2 { margin: 0; font-size: .9rem; font-weight: 600; color: #40514f; }
+.summary p { margin: .5rem 0 0; font-size: 1.55rem; font-weight: 700; }
+form { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; }
+label { display: grid; gap: 6px; font-size: .88rem; font-weight: 600; }
+input, select, button { padding: 9px 12px; border: 1px solid #82948d; border-radius: 5px; background: white; font: inherit; color: inherit; }
+button { color: white; background: #1b574a; border-color: #1b574a; cursor: pointer; }
+.table { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; text-align: left; white-space: nowrap; }
+th, td { padding: 11px 12px 11px 0; border-bottom: 1px solid #e3ebe8; }
+tbody tr:last-child > * { border-bottom: 0; }
+article { border-top: 1px solid #e3ebe8; margin-top: 16px; }
+article p { margin: .5rem 0; }
+[role=alert] { color: #8e301e; }
