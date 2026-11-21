@@ -1,0 +1,76 @@
+{
+  "quotes": 160,
+  "earnings": 4,
+  "matchedIndependentValuation": true,
+  "matchedIndependentDrawdown": true,
+  "retryOnRateLimit": true,
+  "authorizationFailureNotRetried": true,
+  "repeatedRefreshCreatedDuplicates": false,
+  "preservedSnapshotOnProviderFailure": true,
+  "persistedAfterRestart": true,
+  "portfolioScopedNotes": true,
+  "rescheduledEarningsReplaced": true,
+  "removedEarningsCleared": true,
+  "samplePortfolio": {
+    "asOf": "2026-09-25",
+    "total": 14502.75,
+    "drawdown": 0,
+    "positions": [
+      {
+        "symbol": "ALFA",
+        "shares": 100,
+        "value": 4819,
+        "weight": 0.3322818086225026,
+        "priceDate": "2026-09-25",
+        "nextEarnings": "2026-11-06"
+      },
+      {
+        "symbol": "BRVO",
+        "shares": 80,
+        "value": 4853.6,
+        "weight": 0.3346675630483874,
+        "priceDate": "2026-09-25",
+        "nextEarnings": "2026-11-06"
+      },
+      {
+        "symbol": "CHAR",
+        "shares": 65,
+        "value": 4830.15,
+        "weight": 0.33305062832911,
+        "priceDate": "2026-09-25",
+        "nextEarnings": "2026-11-06"
+      }
+    ]
+  },
+  "balancedPortfolio": {
+    "asOf": "2026-10-13",
+    "total": 18929.8,
+    "drawdown": 0.0020141458616328633,
+    "positions": [
+      {
+        "symbol": "ALFA",
+        "shares": 50,
+        "value": 2393.5,
+        "weight": 0.12644084987691365,
+        "priceDate": "2026-10-10",
+        "nextEarnings": "2026-11-06"
+      },
+      {
+        "symbol": "CHAR",
+        "shares": 90,
+        "value": 7359.3,
+        "weight": 0.388767974305064,
+        "priceDate": "2026-10-10",
+        "nextEarnings": "2026-11-06"
+      },
+      {
+        "symbol": "DLTA",
+        "shares": 100,
+        "value": 9177,
+        "weight": 0.4847911758180224,
+        "priceDate": "2026-10-10",
+        "nextEarnings": "2026-11-06"
+      }
+    ]
+  }
+}
