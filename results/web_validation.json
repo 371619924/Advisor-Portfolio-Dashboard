@@ -1,0 +1,11 @@
+{
+  "productionNextRendering": "passed",
+  "filters": [
+    "portfolio",
+    "valuation date",
+    "full-text note search"
+  ],
+  "missingPriceDate": "most recent available quote is displayed",
+  "invalidDate": "error alert",
+  "transport": "Next.js server to NestJS GraphQL and embedded PostgreSQL"
+}
